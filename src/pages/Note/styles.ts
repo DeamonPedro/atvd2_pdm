@@ -1,0 +1,73 @@
+import { StyleSheet } from "react-native";
+
+export const pageStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "flex-start",
+    paddingHorizontal: 20,
+    paddingTop: 20,
+  },
+  headerContainer: {
+    flex: 1,
+    width: "100%",
+    maxHeight: 80,
+    alignItems: "center",
+    justifyContent: "center",
+    flexDirection: "row",
+  },
+  pageTitle: {
+    flex: 1,
+    color: "#745F5F",
+    fontSize: 30,
+    textAlignVertical: "center",
+    textAlign: "center",
+    marginRight: 35,
+  },
+  noteContainer: {
+    flex: 1,
+    width: "100%",
+  },
+  headerNoteItem: {
+    padding: 10,
+    borderTopRightRadius: 12,
+    borderTopLeftRadius: 12,
+    backgroundColor: "#616161",
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  itemTitleText: {
+    flex: 1,
+    height: "100%",
+    color: "#EBEBEB",
+    fontSize: 22,
+    textAlignVertical: "center",
+    marginLeft: 10,
+  },
+  bodyText: {
+    flex: 1,
+    color: "#262626",
+    backgroundColor: "#b5b5b5",
+    textAlignVertical: "top",
+    borderBottomLeftRadius: 12,
+    borderBottomRightRadius: 12,
+    paddingHorizontal: 10,
+    fontSize: 15,
+  },
+  optionsContainer: {
+    width: "100%",
+    marginVertical: 10,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+  },
+  option: {
+    flex: 1,
+    padding: 10,
+    backgroundColor: "#616161",
+    borderRadius: 12,
+    maxWidth: "31%",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
